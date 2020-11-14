@@ -1,9 +1,9 @@
 //1. Sound effects
-const achuCumbia = new Audio("../sounds/achuCumbia.mp3");
-const gunshot = new Audio("../sounds/gunshot.mp3");
-const soundLaugh = new Audio ("../sounds/laugh.mp3");
-const soundLevelUp = new Audio("../sounds/nextLevel.mp3");
-const soundGameover = new Audio ("../sounds/sneeze.mp3");
+const achuCumbia = new Audio("https://res.cloudinary.com/dyvopd0iz/video/upload/v1605394829/Corona%20Hunt/achuCumbia_tra3ts.mp3");
+const gunshot = new Audio("https://res.cloudinary.com/dyvopd0iz/video/upload/v1605394828/Corona%20Hunt/gunshot_d6d2qr.mp3");
+const soundLaugh = new Audio ("https://res.cloudinary.com/dyvopd0iz/video/upload/v1605394828/Corona%20Hunt/laugh_wlu8np.mp3");
+const soundLevelUp = new Audio("https://res.cloudinary.com/dyvopd0iz/video/upload/v1605394828/Corona%20Hunt/nextLevel_cpfvdn.mp3");
+const soundGameover = new Audio ("https://res.cloudinary.com/dyvopd0iz/video/upload/v1605394827/Corona%20Hunt/gameOver_iwyus4.mp3");
 
 //2. Variables generales
 const sceneBack = new Scene (0,0, canvas.width, canvas.height, "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394050/Corona%20Hunt/scene_back_osztnc.png")//Excena atras de Gatell

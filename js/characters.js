@@ -32,8 +32,8 @@ const restartBtn = document.getElementById("restart");
     }
     //Images VirusL1 dead
     const virus1Dead = {
-        first: "../images/01_covid_falling_01.png",
-        second:"../images/01_covid_falling_02.png"
+        first: "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/02_covid_01_jicmmd.png",
+        second:"https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/02_covid_02_z84lnt.png"
     }
      //Images VirusL2 alive
      const virus2Alive = {
@@ -47,7 +47,7 @@ const restartBtn = document.getElementById("restart");
     }
      //Images VirusL1 dead
      const virus2Dead = {
-        first: "../images/02_covid_falling_01.png",
+        first: "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/02_covid_01_jicmmd.png",
         second:"../images/02_covid_falling_02.png"
      }
 
