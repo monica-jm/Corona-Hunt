@@ -22,13 +22,13 @@ const restartBtn = document.getElementById("restart");
 
     //Images VirusL1 alive
     const virus1Alive = {
-        first: "../images/01_covid_01.png",
-        second:"../images/01_covid_02.png"
+        first: "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/01_covid_01_nqqk95.png",
+        second:"https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/01_covid_02_idfgwt.png"
     }
     //Images VirusL1 shot
     const virus1Shot = {
-        first: "../images/01_covid_hit_01.png",
-        second:"../images/01_covid_hit_02.png"
+        first: "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/01_covid_hit_01_wunvwp.png",
+        second:"https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/01_covid_hit_02_qq1eia.png"
     }
     //Images VirusL1 dead
     const virus1Dead = {
@@ -42,8 +42,8 @@ const restartBtn = document.getElementById("restart");
      }
     //Images VirusL1 shot
      const virus2Shot = {
-        first: "../images/02_covid_hit_01.png",
-        second:"../images/02_covid_hit_02.png"
+        first: "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/01_covid_hit_01_wunvwp.png",
+        second:"https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/02_covid_02_z84lnt.png"
     }
      //Images VirusL1 dead
      const virus2Dead = {
@@ -130,8 +130,8 @@ class Virus {
             this.dead = true;
             this.xSpeed = 0;
             this.ySpeed = this.gravity;
-            this.virus1.src = "../images/01_covid_falling_01.png"//img.dead1
-            this.virus2.src ="../images/01_covid_falling_02.png"//img.dead2
+            this.virus1.src = "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/01_covid_hit_02_qq1eia.png"//img.dead1
+            this.virus2.src ="https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394048/Corona%20Hunt/02_covid_hit_02_h3eqwp.png"//img.dead2
         }
         if (frames % 20 === 0){
             this.virus = this.virus === this.virus1 ? this.virus2 : this.virus1
@@ -184,7 +184,7 @@ class Character {
         this.frameX = 0;
         this.frameY = 0;
         this.image = new Image();
-        this.image.src = `../images/spriteGatell.png`; 
+        this.image.src = `https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394050/Corona%20Hunt/spriteGatell_k5ehud.png`; 
     }
     collition (aim){
         return(

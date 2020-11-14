@@ -6,7 +6,7 @@ const soundLevelUp = new Audio("../sounds/nextLevel.mp3");
 const soundGameover = new Audio ("../sounds/sneeze.mp3");
 
 //2. Variables generales
-const sceneBack = new Scene (0,0, canvas.width, canvas.height, "https://res.cloudinary.com/dhgfid3ej/image/upload/v1591426713/lab-uploader/file_yl6gsv.jpg")//Excena atras de Gatell
+const sceneBack = new Scene (0,0, canvas.width, canvas.height, "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394050/Corona%20Hunt/scene_back_osztnc.png")//Excena atras de Gatell
 let virus1 = new Virus (vX*64, vY, .7,.7, 1, virus1Alive)//Virus nivel 1
 let virus2 = new Virus (vX*64, vY, .3,.3, 2, virus2Alive) //Virus nivel 2
 
@@ -16,10 +16,10 @@ let virus2 = new Virus (vX*64, vY, .3,.3, 2, virus2Alive) //Virus nivel 2
 //Gatell Sprite
 const gatell = new Character(); 
 
-const sceneFront = new Scene (0,0,canvas.width,canvas.height,"../images/scene_front.png")//Escena frente a Gatell 
-let aim = new Aim(aX,aY, 1, "../images/aim2.png")
-let gameOverImg = new Scene(222, 100, 376, 273, "../images/gameOver.png");
-let winnerImg = new Scene(222, 100, 321, 260, "../images/winner.png");
+const sceneFront = new Scene (0,0,canvas.width,canvas.height,"https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394050/Corona%20Hunt/scene_front_j3ci7y.png")//Escena frente a Gatell 
+let aim = new Aim(aX,aY, 1, "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394048/Corona%20Hunt/aim2_kxeu9k.png")
+let gameOverImg = new Scene(222, 100, 376, 273, "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394049/Corona%20Hunt/gameOver_djgtkz.png");
+let winnerImg = new Scene(222, 100, 321, 260, "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394050/Corona%20Hunt/winner_ly1ssx.png");
 
 //3. Actualizar Escena fondo
 updateScene = () => {
