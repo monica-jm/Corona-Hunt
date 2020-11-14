@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body{
+    font-family: Roboto mono;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 600px;
+    padding: 0px 0px 15px 0px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    background-color:#515ffc21;
+    cursor: none;
+}
+
+.scores {
+    width: 800px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#printScore{
+    display: flex;
+    align-content: center;
+    font-family: Roboto mono;
+    font-size: 30px;
+    color: #515efc;
+}
+
+#restart{
+    display: none;
+}
+
+.buttons {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 15px 100px;
+    border-radius: 100px;
+    border-style: hidden;
+    font-family: Roboto mono;
+    font-size: 20px;
+    color: #515efc;
+    background-color: #aefce2;
+
+}
+
+button:hover{
+    padding: 15px 100px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #515efc;
+    color: #515efc;
+    background-color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ironhackLogo{
+    width: 100px;
+}
