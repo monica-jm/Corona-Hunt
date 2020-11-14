@@ -123,8 +123,8 @@ class Virus {
         if (this.shot === true){
             this.xSpeed = 0;
             this.ySpeed = 0;
-            this.virus1.src = "../images/01_covid_hit_01.png"//img.shot1
-            this.virus2.src ="../images/01_covid_hit_02.png"//img.shot2
+            this.virus1.src = "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/01_covid_hit_02_qq1eia.png"//img.shot1
+            this.virus2.src ="https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394048/Corona%20Hunt/02_covid_hit_02_h3eqwp.png"//img.shot2
         }
         if (this.health <= 0){
             this.dead = true;
