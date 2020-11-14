@@ -6,7 +6,7 @@ const soundLevelUp = new Audio("../sounds/nextLevel.mp3");
 const soundGameover = new Audio ("../sounds/sneeze.mp3");
 
 //2. Variables generales
-const sceneBack = new Scene (0,0, canvas.width, canvas.height, "../images/scene_back.png")//Excena atras de Gatell
+const sceneBack = new Scene (0,0, canvas.width, canvas.height, "https://res.cloudinary.com/dhgfid3ej/image/upload/v1591426713/lab-uploader/file_yl6gsv.jpg")//Excena atras de Gatell
 let virus1 = new Virus (vX*64, vY, .7,.7, 1, virus1Alive)//Virus nivel 1
 let virus2 = new Virus (vX*64, vY, .3,.3, 2, virus2Alive) //Virus nivel 2
 
