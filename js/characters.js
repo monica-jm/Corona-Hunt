@@ -31,25 +31,25 @@ const restartBtn = document.getElementById("restart");
         second:"https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/01_covid_hit_02_qq1eia.png"
     }
     //Images VirusL1 dead
-    const virus1Dead = {
-        first: "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/02_covid_01_jicmmd.png",
-        second:"https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/02_covid_02_z84lnt.png"
-    }
+    // const virus1Dead = {
+    //     first: "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/01_covid_falling_01_u3mpj7.png",
+    //     second:"https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/01_covid_falling_02_bcxfbj.png"
+    // }
      //Images VirusL2 alive
      const virus2Alive = {
-        first: "../images/02_covid_01.png",
-        second:"../images/02_covid_02.png"
-     }
-    //Images VirusL1 shot
-     const virus2Shot = {
-        first: "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/01_covid_hit_01_wunvwp.png",
-        second:"https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/02_covid_02_z84lnt.png"
-    }
-     //Images VirusL1 dead
-     const virus2Dead = {
         first: "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/02_covid_01_jicmmd.png",
-        second:"../images/02_covid_falling_02.png"
+        second:"https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/02_covid_02_z84lnt.png"
      }
+    //Images VirusL2 shot
+     const virus2Shot = {
+        first: "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394048/Corona%20Hunt/02_covid_hit_01_nj6x3j.png",
+        second:"https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394048/Corona%20Hunt/02_covid_hit_02_h3eqwp.png"
+    }
+     //Images VirusL2 dead
+    //  const virus2Dead = {
+    //     first: "https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394048/Corona%20Hunt/02_covid_falling_01_zzxmli.png",
+    //     second:"https://res.cloudinary.com/dyvopd0iz/image/upload/v1605394047/Corona%20Hunt/02_covid_falling_02_f0310l.png"
+    //  }
 
 //Objetos/clases
 //Crear escena
